@@ -1,0 +1,135 @@
+span{
+    display:block;
+    width:200px;
+    padding:10px;
+    background-color:rgb(13, 158, 158);
+    margin-bottom: 10px;
+
+}
+
+div{
+    display: inline-block;
+    background-color: antiquewhite;
+    color: blue;
+    margin: 15px;
+}
+
+.one{
+    background-color: blueviolet;
+    padding: 10px;
+    margin: 10px;
+}
+
+.two{
+    background-color: rgb(177, 189, 83);
+    padding: 20px;
+    margin: 10px;
+}
+
+.three{
+    background-color: rgb(78, 195, 84);
+    padding: 30px;
+    margin: 10px;
+}
+
+.four{
+    background-color: rgb(67, 126, 207);
+    padding: 40px;
+    margin: 10px;
+}
+
+.five{
+    background-color: rgb(233, 72, 115);
+    padding: 50px;
+    margin: 20px;
+}
+ 
+
+ .card{
+    display: inline-block;
+    width: 150;
+    border: 2px solid rgb(97, 89, 89);
+    padding: 20px;
+    margin: 10px;
+    text-align:center;
+    box-shadow: 5px 4px 15px 2px gray;
+ }
+button{
+    background-color: aquamarine;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+} 
+
+li{
+    display:inline-block;
+    background-color: rgb(37, 10, 55);
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    margin-right: 10px;
+    border-radius: 10px;
+    border:1px solid rgb(180, 180, 112);
+}
+
+ul{
+    list-style:none;
+    padding: 0;
+}
+
+li:hover{
+    background-color: blueviolet;
+} 
+
+.box{
+
+    display:inline-block;
+    width:100px;
+    height:100px;
+    background:skyblue;
+    margin:20px;
+}
+
+.middle{
+
+    position:relative;
+    left:50px;
+    top:30px;
+    background:orange;
+
+}
+
+.container{
+
+    width:400px;
+    height:250px;
+    border:3px solid black;
+    position:relative;
+
+}
+
+.square{
+
+    width:80px;
+    height:80px;
+    background:red;
+    position:absolute;
+    top:0;
+    right:0;
+
+}
+
+header{
+
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:70px;
+    background:rgb(32, 32, 148);
+    color:rgb(194, 112, 112);
+    text-align:center;
+    line-height:70px;
+}
+
+.content{
+    margin-top:90px;
+}

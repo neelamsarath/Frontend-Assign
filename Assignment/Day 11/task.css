@@ -1,4 +1,4 @@
- /* .container{
+  .container{
             display:grid;
             grid-template-areas: "header header header"
                                   "aside div nav";
@@ -30,9 +30,9 @@
 
 .nav{
     grid-area: nav;
-    } */
+    } 
 
-/*  .cont{
+ .cont{
     display: grid;
     grid-template-areas: "header header"
                           "sidebar maincontent"
@@ -67,7 +67,7 @@
     grid-area:footer;
     background-color:blueviolet;
     color: beige;           
-    } */
+    } 
 
 .conti{
     display: grid;

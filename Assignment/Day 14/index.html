@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Task 1:</h2>
+    <button class="btn">Click</button>
+
+    <h2>Task 2:</h2>
+    <div class="one">
+        Hello there..
+    </div>
+
+    <h2>Task 3:</h2>
+    <button class="btn1">Hover me</button>
+
+    <h2>Task 4:</h2>
+    <div class="card">
+        <p class="text">🙏 Vanakkam 🙏</p>
+    </div>
+
+    <h2>Task 5</h2>
+    
+    <p id="para1">Hey there</p>
+    <p id="para2">Hello Friends...</p>
+    <p id="para3">Rockstar and Hip Hop</p>
+
+    <h2>Task 6:</h2>
+
+    <p class="bold">Bold Text</p>
+    <p class="italic">Italic Text</p>
+    <p class="underline">Underline Text</p>
+    <p class="combined">Bold + Italic + Underline</p>
+
+    <h2>Task 7:</h2>
+    <div class="seven">
+        Hey there..
+    </div>
+
+    <h2>Task 8:</h2>
+    <p class="eight">This paragraph is an example for "em" </p>
+
+    <h2>Task 9:</h2>
+    <h1>Its me Heading </h1>
+
+
+    <h2>Task 10:</h2>
+    <div class="three">
+        Media
+    </div>
+
+
+    <style>
+    
+    *{
+        margin: 10px;
+        padding: 5px;
+    }
+
+    .btn{
+        background-color: bisque;
+        width:100px;
+        height: 50px;
+        cursor: pointer;
+        transition: background-color 2s;
+    }
+
+    .btn:hover{
+        background-color:aquamarine ;
+    }
+
+    .one{
+        background-color: rgb(84, 74, 228);
+        height: 50px;
+        width: 200px;
+        text-align:center;
+        align-content: center;
+        transition: transform 0.5s;
+        color:white;
+        border-radius: 20px;
+    }
+
+    .one:hover{
+        transform: scale(1.2);
+        background-color: blueviolet;
+    }
+
+    .btn1 {
+        background-color: orange;
+        color: white;
+        border-radius: 10px;
+        border: 5px solid brown;
+        padding: 15px 15px;
+        border: none;
+        font-size: 16px;
+        transition: all 0.4s;
+        cursor: pointer;
+    }
+
+    .btn1:hover {
+        background-color: purple;
+        transform: scale(1.1);
+        box-shadow: 0px 5px 15px gray;
+    }
+
+    .card {
+        width: 250px;
+        height: 150px;
+        background-color: lightblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .text {
+        opacity: 0;
+        transition: opacity 0.7s;
+    }
+
+    .card:hover .text {
+        opacity: 1;
+    }
+
+    .three{
+        width: 250px;
+        height: 80px;
+        background-color: burlywood;
+        text-align: center;
+        align-content: center;
+    }
+
+    @media (max-width:768px){
+        .three{
+            background-color:cadetblue;
+        }
+    }
+
+    #para1 {
+        font-family: "Times New Roman", Times, serif;
+    }
+
+    #para2 {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #para3 {
+        font-family: "Lucida Console", "Courier New", monospace;
+    }
+
+    .bold {
+        font-weight: bold;
+    }
+
+    .italic {
+        font-style: italic;
+    }
+
+    .underline {
+        text-decoration: underline;
+    }
+
+    .combined {
+        font-weight: bold;
+        font-style: italic;
+        text-decoration: underline;
+    }
+
+    .seven {
+        width: 80%;
+        max-width: 600px;
+        height: 200px;
+        background-color: lightblue;
+        margin: 20px auto;
+        text-align: center;
+        line-height: 200px;
+    }
+
+    .eight{
+        font-size: 1.5rem;
+    }
+
+    h1 {
+        font-size: 6vw;
+    }
+
+    </style>
+</body>
+</html>
